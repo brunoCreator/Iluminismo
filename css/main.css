@@ -1,0 +1,208 @@
+body{
+    margin:0;
+}
+
+.right{
+    text-align: right;
+}
+
+.topBar{
+    
+   
+    height: 60px;
+}
+
+.left{
+    text-align: left;
+}
+.tab{
+    position: relative;
+     z-index: 1;
+    text-align: center;
+}
+
+#rHome,#rBasic,#rPost,#rLink,#rEmail{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fff;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+
+
+.nav{
+padding: 14px 25px 26px 15px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    
+}
+.logo{
+    font-size: 60px;
+    color: white;
+    font-family: 'Megrim', cursive;
+    font-weight: 100;
+    height: 60px;
+    float: left;
+    -webkit-animation: light 1.5s ease-in-out infinite alternate;
+  -moz-animation: light 1.5s ease-in-out infinite alternate;
+  animation: light 1.5s ease-in-out infinite alternate;
+}
+
+
+nav{
+ 
+}
+
+nav .tab{
+    
+}
+
+.head{
+    top: 0;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    text-align: right;
+}
+
+#rHome:checked ~ #home{
+    display: block;
+}
+#rBasic:checked ~ #basic{
+    display: block;
+}
+#rPost:checked ~ #post{
+    display: block;
+}
+#rLink:checked ~ #link{
+    display: block;
+}
+#rEmail:checked ~ #email{
+    display: block;
+}
+
+
+#NavHome{
+    
+}
+#NavBasic{
+    background-color:  dodgerblue;
+}
+#NavPost{
+    background-color:forestgreen;
+}
+#NavLink{
+    background-color: rebeccapurple;
+}
+#NavEmail{
+    background-color:darkgray;
+}
+
+#home{
+    display:none;
+    background-color: firebrick;
+}
+#basic{
+    display:none;
+    background-color:  dodgerblue;
+}
+#post{
+    display:none;
+    background-color:forestgreen;
+}
+#link{
+    display:none;
+    background-color: rebeccapurple;
+}
+#email{
+    display:none;
+    background-color:darkgray;
+}
+
+@-webkit-keyframes light {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  rgba(255, 255, 255, 0.2),
+               0 0 70px  rgba(255, 255, 255, 0.2),
+               0 0 80px  rgba(255, 255, 255, 0.2),
+               0 0 100px rgba(255, 255, 255, 0.2),
+               0 0 150px rgba(255, 255, 255, 0.2);
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px rgba(255, 255, 255, 0.2),
+               0 0 35px rgba(255, 255, 255, 0.2),
+               0 0 40px rgba(255, 255, 255, 0.2),
+               0 0 50px rgba(255, 255, 255, 0.2),
+               0 0 75px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@-moz-keyframes light {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  rgba(255, 255, 255, 0.2),
+               0 0 70px  rgba(255, 255, 255, 0.2),
+               0 0 80px  rgba(255, 255, 255, 0.2),
+               0 0 100px rgba(255, 255, 255, 0.2),
+               0 0 150px rgba(255, 255, 255, 0.2);
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px rgba(255, 255, 255, 0.2),
+               0 0 35px rgba(255, 255, 255, 0.2),
+               0 0 40px rgba(255, 255, 255, 0.2),
+               0 0 50px rgba(255, 255, 255, 0.2),
+               0 0 75px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@keyframes light {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  rgba(255, 255, 255, 0.2),
+               0 0 70px  rgba(255, 255, 255, 0.2),
+               0 0 80px  rgba(255, 255, 255, 0.2),
+               0 0 100px rgba(255, 255, 255, 0.2),
+               0 0 150px rgba(255, 255, 255, 0.2);
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px rgba(255, 255, 255, 0.2),
+               0 0 35px rgba(255, 255, 255, 0.2),
+               0 0 40px rgba(255, 255, 255, 0.2),
+               0 0 50px rgba(255, 255, 255, 0.2),
+               0 0 75px rgba(255, 255, 255, 0.2);
+  }
+}
