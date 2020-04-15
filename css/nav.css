@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    width: 100%;
+    display: table;
+    background: black;
+}
+
+.nav ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navLeft {
+    float: left;
+}
+
+.navCenter {
+    text-align: center;
+    color: white;
+}
+
+.navRight {
+    float: right;
+}
+
+#menu li {
+    display: table-cell;
+
+    background-color: black;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.tab {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+
+#rBasic,
+#rPost,
+#rLink,
+#rEmail {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+
+/*----------icons-----------*/
+
+.svg-icon {
+    width: 2em;
+    height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #fff;
+}
+
+.svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+}
+
+
+
+
+
+/*----------logo-----------*/
+.svg-logo {
+    width: 2em;
+    height: 2em;
+}
+
+
+.logo {
+
+    color: white;
+    font-family: 'Megrim', cursive;
+    font-weight: 100;
+
+    -webkit-animation: light 1.5s ease-in-out infinite alternate;
+    -moz-animation: light 1.5s ease-in-out infinite alternate;
+    animation: light 1.5s ease-in-out infinite alternate;
+}
+
+
+
+/*----------nav-----------*/
+nav {}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav .tab {}
+
+
+.tab {}
+
+right {
+    float: right;
+}
+
+.head {
+    color: white;
+    top: 0;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    text-align: right;
+}
+
+
+
+
+
+
+@-webkit-keyframes light {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px rgba(255, 255, 255, 0.2),
+            0 0 70px rgba(255, 255, 255, 0.2),
+            0 0 80px rgba(255, 255, 255, 0.2),
+            0 0 100px rgba(255, 255, 255, 0.2),
+            0 0 150px rgba(255, 255, 255, 0.2);
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px rgba(255, 255, 255, 0.2),
+            0 0 35px rgba(255, 255, 255, 0.2),
+            0 0 40px rgba(255, 255, 255, 0.2),
+            0 0 50px rgba(255, 255, 255, 0.2),
+            0 0 75px rgba(255, 255, 255, 0.2);
+    }
+}
+
+@-moz-keyframes light {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px rgba(255, 255, 255, 0.2),
+            0 0 70px rgba(255, 255, 255, 0.2),
+            0 0 80px rgba(255, 255, 255, 0.2),
+            0 0 100px rgba(255, 255, 255, 0.2),
+            0 0 150px rgba(255, 255, 255, 0.2);
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px rgba(255, 255, 255, 0.2),
+            0 0 35px rgba(255, 255, 255, 0.2),
+            0 0 40px rgba(255, 255, 255, 0.2),
+            0 0 50px rgba(255, 255, 255, 0.2),
+            0 0 75px rgba(255, 255, 255, 0.2);
+    }
+}
+
+@keyframes light {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px rgba(255, 255, 255, 0.2),
+            0 0 70px rgba(255, 255, 255, 0.2),
+            0 0 80px rgba(255, 255, 255, 0.2),
+            0 0 100px rgba(255, 255, 255, 0.2),
+            0 0 150px rgba(255, 255, 255, 0.2);
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px rgba(255, 255, 255, 0.2),
+            0 0 35px rgba(255, 255, 255, 0.2),
+            0 0 40px rgba(255, 255, 255, 0.2),
+            0 0 50px rgba(255, 255, 255, 0.2),
+            0 0 75px rgba(255, 255, 255, 0.2);
+    }
+}
+
+
+/*
+
+
+
+*/
