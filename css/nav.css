@@ -1,26 +1,15 @@
-body {
-    margin: 0;
-}
-
 .nav {
+   position: absolute;  
     width: 100%;
     display: table;
-    background: black;
 }
 
 .nav ul {
     display: table-cell;
     vertical-align: middle;
+    list-style-type: none;
 }
 
-.navLeft {
-    float: left;
-}
-
-.navCenter {
-    text-align: center;
-    color: white;
-}
 
 .navRight {
     float: right;
@@ -28,35 +17,13 @@ body {
 
 #menu li {
     display: table-cell;
-
-    background-color: black;
 }
 
-.right {
-    text-align: right;
+ul {
+    padding: 0;
+    margin: 0;
 }
 
-.left {
-    text-align: left;
-}
-
-.tab {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-}
-
-
-#rBasic,
-#rPost,
-#rLink,
-#rEmail {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
 
 
 
@@ -73,24 +40,16 @@ body {
     fill: #fff;
 }
 
-.svg-icon circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-}
 
-
-
-
-
-/*----------logo-----------*/
+/*----------icon logo-----------*/
 .svg-logo {
     width: 2em;
     height: 2em;
 }
 
 
+/*----------text logo-----------*/
 .logo {
-
     color: white;
     font-family: 'Megrim', cursive;
     font-weight: 100;
@@ -99,35 +58,6 @@ body {
     -moz-animation: light 1.5s ease-in-out infinite alternate;
     animation: light 1.5s ease-in-out infinite alternate;
 }
-
-
-
-/*----------nav-----------*/
-nav {}
-
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav .tab {}
-
-
-.tab {}
-
-right {
-    float: right;
-}
-
-.head {
-    color: white;
-    top: 0;
-    position: absolute;
-    height: 300px;
-    width: 100%;
-    text-align: right;
-}
-
 
 
 

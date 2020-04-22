@@ -11,6 +11,10 @@ var quotes = JSON.parse(quote);
 
 document.getElementById("quot").innerHTML = quotes[Math.floor(Math.random() * quotes.length)][0];
 
+var menuTitle = document.createElement('h1');
+menuTitle.appendChild(document.createTextNode("Posts"));
+menu.appendChild(menuTitle);
+
 for (var key in posts) {
     if (!posts.hasOwnProperty(key)) continue;
 
@@ -65,7 +69,7 @@ for (var key in posts) {
     //var back = document.createElement('a');
 
     page.appendChild(titulo);
-    page.appendChild(document.createTextNode(posts[key][6]));
+    page.innerHTML = posts[key][6];
 
     folder.prepend(page);
 
