@@ -18,13 +18,20 @@ body {
     display: none;
 }
 
+
+
 .tab-folder > :last-child,
 .tab-folder > .tab-content:target {
     display: block;
 }
 
+.tab-folder > :last-child,
+.tab-folder > .tab-content#home:target {
+    display: flex;
+}
+
 .tab-folder {
-    padding: 0px 50px;
+    padding: 1em 50px;
 }
 
 

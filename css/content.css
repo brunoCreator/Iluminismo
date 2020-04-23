@@ -1,11 +1,20 @@
 /*------------home-------------*/
 
 #home {
-    height: 90vh;
+    
+}
+
+#home ul li{
+    display: inline;
+    width:200px;
+    height: 100%;
 }
 
 
 /*------------more-------------*/
+.more{
+    margin: 20px;
+}
 .more input{
     display: none;
 }
@@ -13,6 +22,7 @@
 .more span {
     display: none;
     border: 1px solid black;
+    background-color: #292929;
 }
 
 .more input:checked ~ span {
@@ -23,7 +33,7 @@
     cursor: pointer;
     display: inline-block;
     width: 100%;
-    background: black;
+    background-color: #292929;
     color: white;
 }
 
@@ -128,3 +138,20 @@ ul {
     list-style-type: circle;
     list-style-position: inside;
 }
+
+#home{
+    flex-wrap: wrap;
+    align-items: center;
+  justify-content: center;
+}
+
+.homeItens {
+    float:left;
+    height: 90vh;
+    width: 40%;
+    min-width: 620px;
+    display: flex;
+    align-items: center;
+}
+
+
