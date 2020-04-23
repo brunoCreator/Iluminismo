@@ -4,24 +4,22 @@
     
 }
 
-#home ul li{
-    display: inline;
-    width:200px;
-    height: 100%;
-}
+
 
 
 /*------------more-------------*/
 .more{
     margin: 20px;
+    
 }
 .more input{
     display: none;
 }
 
 .more span {
+    padding: 20px;
     display: none;
-    border: 1px solid black;
+
     background-color: #292929;
 }
 
@@ -30,6 +28,7 @@
 }
 
 .more label {
+    padding: 20px;
     cursor: pointer;
     display: inline-block;
     width: 100%;
@@ -146,6 +145,7 @@ ul {
 }
 
 .homeItens {
+    padding: 0 30px;
     float:left;
     height: 90vh;
     width: 40%;
