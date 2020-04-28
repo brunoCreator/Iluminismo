@@ -1,13 +1,35 @@
-/*------------home-------------*/
 
-#home {
-    
+
+/*######################################################################
+                                  home
+########################################################################*/
+
+#home{
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+  justify-content: center;
+}
+
+.homeItens {
+    padding: 0;
+    float:left;
+    min-height: 70vh;
+    width: 50%;
+    min-width: 620px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.homeItens div{
+    width: 100%;
 }
 
 
 
-
-/*------------more-------------*/
+/*######################################################################
+                                  more
+########################################################################*/
 .more{
     margin: 20px;
     
@@ -37,7 +59,9 @@
 }
 
 
-/*------------link-------------*/
+/*######################################################################
+                                  link
+########################################################################*/
 
 .link {
     position: relative;
@@ -81,17 +105,24 @@
     color: #999;
 }
 
-/*------------legend-------------*/
+/*######################################################################
+                                  legends
+########################################################################*/
 
-.legend{
+#legendsContent li{
     display: inline-block;
     width: 220px;
     background-color: #292929;
     transition: all .3s ease-in-out;
     margin: 30px 0;
 }
+#legendsContent li div{
+    overflow: hidden;
+    width: 200px;
+    height: 250px;
+}
 
-.legend a {
+#legendsContent li a {
     padding: 10%;
     width: 90%;
     height: 90%;
@@ -102,56 +133,33 @@
     text-decoration: none;
 }
 
-.legend p{
-    text-overflow: ellipsis;
+#legendsContent li p{
+  text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
-  max-height: 3em;
+  height: 4.5em;
+  margin-bottom: 0;   
 }
 
-.legend small {
+#legendsContent li small {
     color: #999;
 }
 
-.legend:hover {
+#legendsContent li:hover {
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
-
-
-
-
-
-
-
-
-a {
-    color: #999;
-    text-decoration: none;
-}
-a:hover{
-    color: white;
-}
-
-ul {
-    list-style-type: circle;
-    list-style-position: inside;
-}
-
-#home{
-    flex-wrap: wrap;
-    align-items: center;
-  justify-content: center;
-}
-
-.homeItens {
-    padding: 0 30px;
-    float:left;
-    height: 90vh;
-    width: 40%;
-    min-width: 620px;
-    display: flex;
-    align-items: center;
+#legendsContent li img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
 
 
+
+
+
+.test {
+
+    background-image: radial-gradient(white,black);
+}
