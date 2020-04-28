@@ -27,9 +27,7 @@
 
 .light{
     filter: 
-    drop-shadow(0 0 800px #fff)    
-    drop-shadow(0 0 500px #fff)
-    drop-shadow(0 0 200px #fff)
+    drop-shadow(0 0 300px #fff)
     drop-shadow(0 0 100px #fff)
     drop-shadow(0 0 10px #fff);
 }
