@@ -120,16 +120,18 @@ for (var key in posts) {
 
     var page = document.createElement('div');
 
-    page.setAttribute("class", "tab-content");
+    page.setAttribute("class", "tab-content post");
     page.setAttribute("id", key);
 
     var titulo = document.createElement('h1');
+    var conteudo = document.createElement('div');
     titulo.innerHTML = posts[key][0];
     //var back = document.createElement('a');
 
     page.appendChild(titulo);
-    page.innerHTML = posts[key][6];
-
+    
+    conteudo.innerHTML = posts[key][6];
+    page.appendChild(conteudo);
     folder.prepend(page);
 
 }
