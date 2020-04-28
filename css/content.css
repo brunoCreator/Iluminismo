@@ -77,8 +77,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 
 .light {
-    filter:
-        drop-shadow(0 0 300px #fff) drop-shadow(0 0 200px #fff) drop-shadow(0 0 10px #fff);
+    filter:drop-shadow(0 0 10px #fff);
 }
 #home h2{
     font-family: 'Josefin Sans', sans-serif;
