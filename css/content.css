@@ -42,7 +42,7 @@ font-family: 'Cormorant Garamond', serif;
     /*color: #86868b;*/
     font-family: 'Cormorant Garamond', serif;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 34px;
     margin: 0 0 3px;
 }
@@ -53,6 +53,10 @@ font-family: 'Cormorant Garamond', serif;
 /*######################################################################
                                   home
 ########################################################################*/
+
+#home{
+    /*background: radial-gradient(circle at 25% calc(40vh + 1em), rgba(255, 255, 255, 0.86), #222 1000px);*/
+}
 
 #home {
     text-align: center;
@@ -257,16 +261,19 @@ font-family: 'Cormorant Garamond', serif;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #home p{
-        font-size: 20px;
-    }
-    .post div p{
-        font-size: 20px;
-    }
+    
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    #home p{
+        font-size: 16px;
+    }
+    .post div h3{
+        font-size: 20px;
+    }
+    .post div p{
+        font-size: 16px;
+    }
 
 }

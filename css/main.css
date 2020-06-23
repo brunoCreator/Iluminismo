@@ -6,6 +6,7 @@ html {
     height: 100%;
 }
 
+
 .more input {
     display: none;
 }
@@ -91,8 +92,10 @@ footer {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    ...
+@media only screen and (max-width: 1238px) {
+    #home{
+    /*background: radial-gradient(circle at 50% calc(35vh + 2em), rgba(255, 255, 255, 0.86), #222 1000px);*/
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -102,6 +105,7 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    
     .homeItens{
         min-width: inherit;
         width: inherit;
@@ -116,11 +120,12 @@ footer {
     }
 .tab-folder > :last-child,
 .tab-folder > .tab-content:target {
-    padding: 2em 50px;
+    padding: 2em 20px;
 }
 .tab-folder > :last-child,
 .tab-folder > .tab-content#home:target {
     padding: 2em 0;
 }
+    
 
 }
